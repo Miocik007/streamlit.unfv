@@ -1,0 +1,24 @@
+# Entornos virtuales
+myenv/
+.venv/
+
+# Variables y secretos
+.env
+.streamlit/secrets.toml
+
+# Índice vectorial generado localmente
+faiss_index/
+
+# Base de datos local
+study_data.db
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales / sistema
+*.log
+.DS_Store
+Thumbs.db
